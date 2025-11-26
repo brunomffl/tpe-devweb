@@ -20,10 +20,14 @@
   },
   "dependencies": {
     "@prisma/client": "^7.0.1",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/express-session": "^1.18.2",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.4.6",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "express-session": "^1.18.2"
+    "express-session": "^1.18.2",
+    "prisma": "^7.0.1"
   }
 }
