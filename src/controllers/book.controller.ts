@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { BookService } from '../services/book.service';
+import { BookService } from '../services/book-service';
 import { AuthRequest } from '../middlewares/auth.middleware';
 
 const bookService = new BookService();
